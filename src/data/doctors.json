@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. John Smith",
+    "specialty": "Cardiology",
+    "location": "New York",
+    "phone": "123-456-7890",
+    "email": "john.smith@example.com",
+    "rating": 4
+  },
+  {
+    "id": 2,
+    "name": "Dr. Alice Brown",
+    "specialty": "Neurology",
+    "location": "Los Angeles",
+    "phone": "321-654-0987",
+    "email": "alice.brown@example.com",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Dr. Kevin Lee",
+    "specialty": "Pediatrics",
+    "location": "Chicago",
+    "phone": "555-123-4567",
+    "email": "kevin.lee@example.com",
+    "rating": 3
+  },
+  {
+    "id": 4,
+    "name": "Dr. Maya Patel",
+    "specialty": "Dermatology",
+    "location": "Houston",
+    "phone": "444-987-6543",
+    "email": "maya.patel@example.com",
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "name": "Dr. Robert Kim",
+    "specialty": "Oncology",
+    "location": "Phoenix",
+    "phone": "222-333-4444",
+    "email": "robert.kim@example.com",
+    "rating": 4
+  },
+  {
+    "id": 6,
+    "name": "Dr. Sarah Green",
+    "specialty": "Cardiology",
+    "location": "Philadelphia",
+    "phone": "111-222-3333",
+    "email": "sarah.green@example.com",
+    "rating": 2
+  },
+  {
+    "id": 7,
+    "name": "Dr. David White",
+    "specialty": "Neurology",
+    "location": "San Antonio",
+    "phone": "999-888-7777",
+    "email": "david.white@example.com",
+    "rating": 4
+  },
+  {
+    "id": 8,
+    "name": "Dr. Emily Johnson",
+    "specialty": "Orthopedics",
+    "location": "San Diego",
+    "phone": "123-321-1234",
+    "email": "emily.johnson@example.com",
+    "rating": 5
+  },
+  {
+    "id": 9,
+    "name": "Dr. Anil Mehta",
+    "specialty": "ENT",
+    "location": "Dallas",
+    "phone": "789-456-1230",
+    "email": "anil.mehta@example.com",
+    "rating": 3
+  },
+  {
+    "id": 10,
+    "name": "Dr. Priya Nair",
+    "specialty": "Gastroenterology",
+    "location": "San Jose",
+    "phone": "456-789-0123",
+    "email": "priya.nair@example.com",
+    "rating": 4
+  },
+  {
+    "id": 11,
+    "name": "Dr. George Adams",
+    "specialty": "Cardiology",
+    "location": "Austin",
+    "phone": "741-852-9630",
+    "email": "george.adams@example.com",
+    "rating": 3
+  },
+  {
+    "id": 12,
+    "name": "Dr. Olivia Turner",
+    "specialty": "Pediatrics",
+    "location": "Jacksonville",
+    "phone": "963-852-7410",
+    "email": "olivia.turner@example.com",
+    "rating": 5
+  },
+  {
+    "id": 13,
+    "name": "Dr. William Carter",
+    "specialty": "Urology",
+    "location": "San Francisco",
+    "phone": "258-369-1470",
+    "email": "william.carter@example.com",
+    "rating": 2
+  },
+  {
+    "id": 14,
+    "name": "Dr. Rachel Brooks",
+    "specialty": "Dermatology",
+    "location": "Columbus",
+    "phone": "147-258-3690",
+    "email": "rachel.brooks@example.com",
+    "rating": 4
+  },
+  {
+    "id": 15,
+    "name": "Dr. Michael Reed",
+    "specialty": "Oncology",
+    "location": "Charlotte",
+    "phone": "321-123-4560",
+    "email": "michael.reed@example.com",
+    "rating": 5
+  }
+]

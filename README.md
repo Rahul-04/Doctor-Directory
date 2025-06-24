@@ -4,6 +4,15 @@ A simple React application to manage a list of doctors with filtering, searching
 
 ---
 
+## 🧪 Features
+
+- Add a new doctor using a modal form
+- Form validation via Yup
+- Search/filter by name, specialty, and location
+- Modal-based doctor detail view
+- CSV export of filtered doctors
+- Tailwind CSS responsive UI
+
 ## 🔧 Tech Stack
 
 - React
@@ -27,7 +36,13 @@ A simple React application to manage a list of doctors with filtering, searching
 ### 2️⃣ Clone and Install
 
 ```bash
-git clone https://github.com/yourusername/doctor-directory.git
+git clone https://github.com/Rahul-04/Doctor-Directory.git
+
 cd doctor-directory
+
 npm install
 ```
+
+## 🧹 Linting & Code Formatting
+
+This project uses **ESLint** and **Prettier** to enforce consistent coding standards.

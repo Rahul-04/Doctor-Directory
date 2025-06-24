@@ -1,0 +1,184 @@
+// Variables
+$primary-blue: #2563eb;
+$primary-green: #22c55e;
+$error-red: #ef4444;
+$bg-gray: #f9f9f9;
+$font-base: Arial, sans-serif;
+
+// Base Styles
+body {
+  font-family: $font-base;
+  background-color: $bg-gray;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+select,
+button {
+  font-family: inherit;
+}
+
+h1,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken($primary-blue, 5%);
+  }
+}
+
+// Layout Utilities
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+// Utility Classes
+.border {
+  border: 1px solid #ddd;
+}
+
+.rounded {
+  border-radius: 0.5rem;
+}
+
+.shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.p-4 {
+  padding: 1rem;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.bg-white {
+  background-color: white;
+}
+.bg-blue-500 {
+  background-color: lighten($primary-blue, 10%);
+}
+.bg-blue-600 {
+  background-color: $primary-blue;
+}
+.bg-green-500 {
+  background-color: $primary-green;
+}
+
+.text-white {
+  color: white;
+}
+.text-black {
+  color: black;
+}
+.text-red-500 {
+  color: $error-red;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+.text-xl {
+  font-size: 1.25rem;
+}
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+.font-bold {
+  font-weight: 700;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.w-full {
+  width: 100%;
+}
+.max-w-4xl {
+  max-width: 64rem;
+}
+
+.flex {
+  display: flex;
+}
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.space-y-2 {
+  > * + * {
+    margin-top: 0.5rem;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.fixed {
+  position: fixed;
+}
+.inset-0 {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.overflow-y-auto {
+  overflow-y: auto;
+}
+.z-10 {
+  z-index: 10;
+}
+.min-h-screen {
+  min-height: 100vh;
+}
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
